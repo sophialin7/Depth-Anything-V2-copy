@@ -1,0 +1,11 @@
+DEPTH MAP SCALING INFORMATION
+==================================================
+
+Reference object: Red book
+Real-world width: 19.05 cm (7.5 inches)
+Assumed pixel width in depth: 80 pixels
+Scaling factor: 0.238125 cm/pixel
+
+Usage:
+  depth_metric = cv2.imread('metric_depth.png', cv2.IMREAD_ANYDEPTH) / 100
+  # Now depth_metric is in centimeters
